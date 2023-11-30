@@ -8,4 +8,5 @@ include_directories(.)
 add_executable(Contenedores_Din_micos
         EJ1.cpp
         EJ2.cpp
+        EJ3.cpp
 )
