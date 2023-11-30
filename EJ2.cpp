@@ -14,3 +14,9 @@ int main() {
     pila.push(7.7);
     pila.push(8.8);
     std::cout << "\nPila después de agregar elementos:" << std::endl;
+    while (!pila.empty()) {
+        std::cout << pila.top() << std::endl;
+        pila.pop();
+    }
+    return 0;
+}
